@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/pixel/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": false,
     "splash": {
       "backgroundColor": "#eafeef"
     },
