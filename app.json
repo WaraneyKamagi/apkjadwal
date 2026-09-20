@@ -7,6 +7,7 @@
     "icon": "./assets/pixel/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
+      "image": "./assets/pixel/haya_logo.png",
       "backgroundColor": "#eafeef"
     },
     "ios": {
