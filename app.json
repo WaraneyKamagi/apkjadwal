@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "HAYA Pixel Daily Planner",
+    "slug": "haya-pixel-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pixel/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "backgroundColor": "#eafeef"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.slarkboy.haya"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#eafeef"
+      },
+      "package": "com.slarkboy.haya"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "68ab87c6-c62e-43d4-bae8-ed2975e8a49a"
+      }
+    }
+  }
+}

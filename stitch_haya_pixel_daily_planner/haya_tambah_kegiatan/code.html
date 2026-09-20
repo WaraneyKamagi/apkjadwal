@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><title>HAYA Pixel Action</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error": "#ba1a1a", "on-primary-fixed": "#00210b", "primary-container": "#198643", "primary-fixed-dim": "#77db8e", "on-surface": "#0e1f16", "tertiary-container": "#946f00", "on-error-container": "#93000a", "outline-variant": "#becabc", "on-tertiary-fixed": "#251a00", "inverse-surface": "#23342a", "error-container": "#ffdad6", "on-background": "#0e1f16", "surface-bright": "#eafeef", "secondary-container": "#c7e7d2", "background": "#eafeef", "on-primary": "#ffffff", "surface-container": "#def3e4", "secondary-fixed": "#caead4", "surface-dim": "#cbdfd1", "tertiary-fixed": "#ffdf9d", "surface-variant": "#d3e8d9", "surface-container-low": "#e4f9ea", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "inverse-primary": "#77db8e", "on-secondary": "#ffffff", "inverse-on-surface": "#e1f6e7", "surface-tint": "#006d32", "on-tertiary-container": "#fffbff", "secondary-fixed-dim": "#aeceb9", "on-primary-fixed-variant": "#005224", "tertiary": "#755700", "outline": "#6f7a6e", "on-primary-container": "#f7fff3", "secondary": "#486554", "on-secondary-fixed-variant": "#304d3d", "surface": "#eafeef", "primary-fixed": "#93f8a8", "on-error": "#ffffff", "on-secondary-container": "#4c6958", "on-secondary-fixed": "#042013", "surface-container-high": "#d9edde", "on-surface-variant": "#3f4a3f", "primary": "#006b31", "on-tertiary-fixed-variant": "#5b4300", "tertiary-fixed-dim": "#f0c04e", "surface-container-highest": "#d3e8d9" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-desktop": "24px", "gutter-mobile": "16px", "space-sm": "8px", "space-2xl": "48px", "margin-desktop": "32px", "space-xs": "4px", "space-3xl": "64px", "space-2xs": "2px", "space-md": "16px", "space-lg": "24px", "margin-mobile": "16px", "space-xl": "32px" }, "fontFamily": { "headline-md": ["Space Grotesk"], "body-md": ["Manrope"], "headline-lg-mobile": ["Space Grotesk"], "headline-sm": ["Space Grotesk"], "body-sm": ["Manrope"], "label-lg": ["Space Grotesk"], "display-lg": ["Space Grotesk"], "label-sm": ["Space Grotesk"], "headline-lg": ["Space Grotesk"], "display-lg-mobile": ["Space Grotesk"], "body-lg": ["Manrope"], "label-md": ["Space Grotesk"] }, "fontSize": { "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "body-md": ["15px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-sm": ["18px", {"lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600"}], "body-sm": ["13px", {"lineHeight": "20px", "fontWeight": "500"}], "label-lg": ["14px", {"lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "700"}], "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "700"}], "label-sm": ["10px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "display-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600"}] } } } }</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; } body { overscroll-behavior: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Kembali" class="min-w-[44px] min-h-[44px] flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="HAYA Pixel Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XWMEzvuKdSNSNJ0wq_L63xLUQ-oGiWcuv5rmcgr5a47iVS7MJXxsIh94VCLEwblP5DrprHKGBopu9zSkXFUw6phjUCtMw12BLKqgUeCnsEGSaqWPFVEB0gHZiJfmA6dBNWfpNcf-ZkR0kfVf0bP24N0e_QTCNHDdW9G4b6hOOOuU_KnUV86mTEdg0feMkaBZw1ogavhpS9-TkUFURhqxWzH2gzW73YGV4hDqRjdJKYow0epKzxnLeVQsA"/><h1 class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate max-w-[150px]">Tambah Tugas</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-safe px-gutter-mobile"><div class="flex flex-col w-full pb-space-2xl">
+<!-- Sub-Header Status Quest / Window Header -->
+<div class="flex items-center justify-between py-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 bg-tertiary-fixed flex items-center justify-center shadow-[2px_2px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-on-tertiary-fixed text-[20px]" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">QUEST CREATOR</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight">Tambah Kegiatan Baru</h2>
+</div>
+</div>
+<button class="px-space-sm py-space-xs bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md shadow-[2px_2px_0px_#0e1f16] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-space-2xs" onclick="history.back()" type="button">
+<span class="material-symbols-outlined text-[16px]">close</span>
+<span>BATAL</span>
+</button>
+</div>
+<!-- Box Gameboy RPG / Neo-Brutalist Pixel Form Module -->
+<div class="w-full bg-surface-container-lowest shadow-[4px_4px_0px_#0e1f16] flex flex-col mb-space-lg">
+<!-- Window Header Title Rail -->
+<div class="bg-surface-container-low px-space-md py-space-sm flex items-center justify-between shadow-[0_2px_0px_#0e1f16]">
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-3 h-3 bg-primary shadow-[1px_1px_0px_#0e1f16]"></span>
+<span class="inline-block w-3 h-3 bg-tertiary-container shadow-[1px_1px_0px_#0e1f16]"></span>
+<span class="inline-block w-3 h-3 bg-error shadow-[1px_1px_0px_#0e1f16]"></span>
+<span class="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface ml-space-xs">DIARY_LOG.EXE</span>
+</div>
+<div class="flex items-center gap-space-2xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-xs py-[2px] shadow-[1px_1px_0px_#0e1f16]">LVL. 01</span>
+</div>
+</div>
+<!-- Form Container Body -->
+<form class="p-space-md flex flex-col gap-space-md" id="activityForm" onsubmit="event.preventDefault(); triggerSaveEffect();">
+<!-- 1. Input Judul Kegiatan -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-xs" for="activityTitle">
+<span class="text-primary font-bold">▶</span>
+<span>Judul Kegiatan</span>
+<span class="text-error font-bold">*</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md px-space-md py-space-sm shadow-[inset_2px_2px_0px_#0e1f16] focus:outline-none focus:bg-surface-container-lowest focus:shadow-[2px_2px_0px_#006b31] transition-all placeholder:text-outline" id="activityTitle" placeholder="Contoh: Rapat Desain Sistem" required="" type="text"/>
+</div>
+</div>
+<!-- 2. Input Deskripsi -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-center">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-xs" for="activityDesc">
+<span class="text-primary font-bold">▶</span>
+<span>Deskripsi Misi</span>
+</label>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-xs py-[1px] shadow-[1px_1px_0px_#0e1f16]" id="charCounter">0/150</span>
+</div>
+<textarea class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm p-space-sm shadow-[inset_2px_2px_0px_#0e1f16] focus:outline-none focus:bg-surface-container-lowest focus:shadow-[2px_2px_0px_#006b31] resize-none transition-all placeholder:text-outline" id="activityDesc" maxlength="150" oninput="document.getElementById('charCounter').innerText = this.value.length + '/150'" placeholder="Tuliskan catatan rincian misi atau agenda..." rows="3"></textarea>
+</div>
+<!-- 3. Pemilihan Tanggal & Shortcut Pixel Buttons -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-xs">
+<span class="text-primary font-bold">▶</span>
+<span>Jadwal Tanggal</span>
+</label>
+<div class="flex items-center gap-space-sm bg-surface-container-low px-space-md py-space-sm shadow-[inset_2px_2px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-primary text-[20px]">calendar_month</span>
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none cursor-default select-none" id="selectedDate" readonly="" type="text" value="Kamis, 24 Okt 2024"/>
+</div>
+<!-- Quick Shortcut Date Pills -->
+<div class="grid grid-cols-3 gap-space-xs mt-space-xs">
+<button class="date-shortcut-btn py-space-xs px-space-2xs bg-primary text-on-primary font-label-sm text-label-sm uppercase shadow-[2px_2px_0px_#0e1f16] active:translate-x-[1px] active:translate-y-[1px] active:shadow-none text-center transition-all" onclick="selectDateShortcut(this, 'Hari Ini, 24 Okt 2024')" type="button">
+            Hari Ini
+          </button>
+<button class="date-shortcut-btn py-space-xs px-space-2xs bg-surface-container text-on-surface font-label-sm text-label-sm uppercase shadow-[2px_2px_0px_#0e1f16] active:translate-x-[1px] active:translate-y-[1px] active:shadow-none text-center transition-all" onclick="selectDateShortcut(this, 'Jumat, 25 Okt 2024')" type="button">
+            Besok
+          </button>
+<button class="date-shortcut-btn py-space-xs px-space-2xs bg-surface-container text-on-surface font-label-sm text-label-sm uppercase shadow-[2px_2px_0px_#0e1f16] active:translate-x-[1px] active:translate-y-[1px] active:shadow-none text-center transition-all" onclick="selectDateShortcut(this, 'Sabtu, 26 Okt 2024')" type="button">
+            Lusa
+          </button>
+</div>
+</div>
+<!-- 4. Jam Mulai & Selesai Pixel Clock -->
+<div class="grid grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-2xs" for="startTime">
+<span class="material-symbols-outlined text-[16px] text-primary">schedule</span>
+<span>Jam Mulai</span>
+</label>
+<div class="flex items-center bg-surface-container-low px-space-sm py-space-xs shadow-[inset_2px_2px_0px_#0e1f16]">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface tracking-wider focus:outline-none" id="startTime" type="time" value="09:30"/>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-2xs" for="endTime">
+<span class="material-symbols-outlined text-[16px] text-error">alarm_off</span>
+<span>Jam Selesai</span>
+</label>
+<div class="flex items-center bg-surface-container-low px-space-sm py-space-xs shadow-[inset_2px_2px_0px_#0e1f16]">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface tracking-wider focus:outline-none" id="endTime" type="time" value="11:00"/>
+</div>
+</div>
+</div>
+<!-- 5. Pemilihan Kategori (Grid Tag Pixel Interaktif) -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-xs">
+<span class="text-primary font-bold">▶</span>
+<span>Kategori Quest</span>
+</label>
+<div class="grid grid-cols-2 gap-space-sm" id="categoryGrid">
+<!-- Kerja (Terpilih Default) -->
+<button class="category-btn flex items-center gap-space-xs p-space-sm bg-secondary-fixed text-on-secondary-fixed shadow-[3px_3px_0px_#0e1f16] -translate-x-[1px] -translate-y-[1px] transition-all text-left" data-cat="kerja" onclick="selectCategory(this, 'kerja')" type="button">
+<div class="w-7 h-7 bg-primary text-on-primary flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-[18px]">work</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md block font-bold truncate">Kerja</span>
+<span class="font-label-sm text-label-sm block text-on-secondary-fixed-variant uppercase">Prioritas</span>
+</div>
+</button>
+<!-- Pribadi -->
+<button class="category-btn flex items-center gap-space-xs p-space-sm bg-surface-container-low text-on-surface shadow-[2px_2px_0px_#0e1f16] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all text-left" data-cat="pribadi" onclick="selectCategory(this, 'pribadi')" type="button">
+<div class="w-7 h-7 bg-error-container text-on-error-container flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md block font-bold truncate">Pribadi</span>
+<span class="font-label-sm text-label-sm block text-on-surface-variant uppercase">Life</span>
+</div>
+</button>
+<!-- Belajar -->
+<button class="category-btn flex items-center gap-space-xs p-space-sm bg-surface-container-low text-on-surface shadow-[2px_2px_0px_#0e1f16] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all text-left" data-cat="belajar" onclick="selectCategory(this, 'belajar')" type="button">
+<div class="w-7 h-7 bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md block font-bold truncate">Belajar</span>
+<span class="font-label-sm text-label-sm block text-on-surface-variant uppercase">EXP Up</span>
+</div>
+</button>
+<!-- Olahraga -->
+<button class="category-btn flex items-center gap-space-xs p-space-sm bg-surface-container-low text-on-surface shadow-[2px_2px_0px_#0e1f16] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all text-left" data-cat="olahraga" onclick="selectCategory(this, 'olahraga')" type="button">
+<div class="w-7 h-7 bg-primary-fixed-dim text-on-primary-fixed flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-[18px]">directions_run</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md block font-bold truncate">Olahraga</span>
+<span class="font-label-sm text-label-sm block text-on-surface-variant uppercase">Stamina</span>
+</div>
+</button>
+</div>
+</div>
+<!-- 6. Status Awal Kegiatan -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface uppercase flex items-center gap-space-xs">
+<span class="text-primary font-bold">▶</span>
+<span>Status Permulaan</span>
+</label>
+<div class="grid grid-cols-2 gap-space-xs">
+<!-- Option: Belum Mulai (Default) -->
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="activity_status" type="radio" value="pending"/>
+<div class="flex items-center gap-space-xs p-space-sm bg-surface-container-low text-on-surface shadow-[2px_2px_0px_#0e1f16] peer-checked:bg-primary-container peer-checked:text-on-primary-container peer-checked:shadow-[3px_3px_0px_#0e1f16] transition-all">
+<div class="w-4 h-4 bg-surface-container-lowest flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<div class="w-2 h-2 bg-primary hidden peer-checked:block"></div>
+</div>
+<span class="font-label-md text-label-md font-bold uppercase">Belum Mulai</span>
+</div>
+</label>
+<!-- Option: Sedang Berjalan -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="activity_status" type="radio" value="in_progress"/>
+<div class="flex items-center gap-space-xs p-space-sm bg-surface-container-low text-on-surface shadow-[2px_2px_0px_#0e1f16] peer-checked:bg-primary-container peer-checked:text-on-primary-container peer-checked:shadow-[3px_3px_0px_#0e1f16] transition-all">
+<div class="w-4 h-4 bg-surface-container-lowest flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<div class="w-2 h-2 bg-primary hidden peer-checked:block"></div>
+</div>
+<span class="font-label-md text-label-md font-bold uppercase">Sedang Jalan</span>
+</div>
+</label>
+</div>
+</div>
+<!-- 7. Pengingat / Notifikasi Switch (Pixel Toggle) -->
+<div class="p-space-sm bg-surface-container-low shadow-[inset_2px_2px_0px_#0e1f16] flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shadow-[1px_1px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-[18px]">notifications_active</span>
+</div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block leading-tight">Pengingat Bunyi</span>
+<span class="font-label-sm text-label-sm text-secondary block" id="reminderText">15 Menit Sebelumnya</span>
+</div>
+</div>
+<!-- 8-Bit Pixel Switch Component -->
+<button aria-pressed="true" class="w-14 h-7 bg-primary px-1 flex items-center justify-end shadow-[2px_2px_0px_#0e1f16] active:shadow-none transition-all cursor-pointer" id="reminderToggle" onclick="toggleReminder(this)" type="button">
+<div class="w-5 h-5 bg-surface-container-lowest shadow-[1px_1px_0px_#0e1f16] flex items-center justify-center">
+<span class="w-2 h-2 bg-primary"></span>
+</div>
+</button>
+</div>
+<!-- Retro Tip/Flavor Box -->
+<div class="p-space-xs bg-surface-container flex items-center gap-space-xs shadow-[2px_2px_0px_#0e1f16]">
+<span class="material-symbols-outlined text-tertiary-container text-[18px]">lightbulb</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+          Menyelesaikan misi tepat waktu memberi bonus <strong class="font-label-sm">+50 Pixel EXP</strong>!
+        </p>
+</div>
+<!-- Bottom Action Buttons -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<!-- Main Primary Save Button -->
+<button class="w-full bg-primary-container text-on-primary-container py-space-md px-space-lg flex items-center justify-center gap-space-sm shadow-[4px_4px_0px_#0e1f16] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none transition-all cursor-pointer group" id="saveBtn" type="submit">
+<span class="material-symbols-outlined text-[24px] group-hover:rotate-12 transition-transform" style="font-variation-settings: 'FILL' 1;">save</span>
+<span class="font-headline-sm text-headline-sm uppercase tracking-wider font-bold">SIMPAN KEGIATAN</span>
+</button>
+<!-- Secondary Neutral Action -->
+<button class="w-full bg-surface-container-low text-on-surface py-space-sm px-space-md flex items-center justify-center gap-space-xs shadow-[2px_2px_0px_#0e1f16] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all cursor-pointer" onclick="history.back()" type="button">
+<span class="font-label-lg text-label-lg uppercase">Batal &amp; Kembali</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<script>
+  function selectDateShortcut(btn, dateString) {
+    document.getElementById('selectedDate').value = dateString;
+    document.querySelectorAll('.date-shortcut-btn').forEach(b => {
+      b.classList.remove('bg-primary', 'text-on-primary');
+      b.classList.add('bg-surface-container', 'text-on-surface');
+    });
+    btn.classList.remove('bg-surface-container', 'text-on-surface');
+    btn.classList.add('bg-primary', 'text-on-primary');
+  }
+
+  function selectCategory(button, categoryKey) {
+    const buttons = document.querySelectorAll('.category-btn');
+    buttons.forEach(b => {
+      b.classList.remove('bg-secondary-fixed', 'text-on-secondary-fixed', 'shadow-[3px_3px_0px_#0e1f16]', '-translate-x-[1px]', '-translate-y-[1px]');
+      b.classList.add('bg-surface-container-low', 'text-on-surface', 'shadow-[2px_2px_0px_#0e1f16]');
+    });
+    button.classList.remove('bg-surface-container-low', 'text-on-surface', 'shadow-[2px_2px_0px_#0e1f16]');
+    button.classList.add('bg-secondary-fixed', 'text-on-secondary-fixed', 'shadow-[3px_3px_0px_#0e1f16]', '-translate-x-[1px]', '-translate-y-[1px]');
+  }
+
+  function toggleReminder(btn) {
+    const isChecked = btn.getAttribute('aria-pressed') === 'true';
+    const textLabel = document.getElementById('reminderText');
+    if (isChecked) {
+      btn.setAttribute('aria-pressed', 'false');
+      btn.classList.remove('bg-primary', 'justify-end');
+      btn.classList.add('bg-surface-container-high', 'justify-start');
+      textLabel.innerText = 'Tidak Aktif';
+      textLabel.classList.add('opacity-50');
+    } else {
+      btn.setAttribute('aria-pressed', 'true');
+      btn.classList.remove('bg-surface-container-high', 'justify-start');
+      btn.classList.add('bg-primary', 'justify-end');
+      textLabel.innerText = '15 Menit Sebelumnya';
+      textLabel.classList.remove('opacity-50');
+    }
+  }
+
+  function triggerSaveEffect() {
+    const btn = document.getElementById('saveBtn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = `
+      <span class="material-symbols-outlined text-[24px] animate-bounce">check_circle</span>
+      <span class="font-headline-sm text-headline-sm uppercase tracking-wider font-bold">MISI TERSIMPAN!</span>
+    `;
+    btn.classList.remove('bg-primary-container');
+    btn.classList.add('bg-primary');
+    
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.classList.remove('bg-primary');
+      btn.classList.add('bg-primary-container');
+      if (window.history.length > 1) {
+        window.history.back();
+      }
+    }, 1200);
+  }
+</script></main></body></html>
