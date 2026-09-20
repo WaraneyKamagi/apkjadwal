@@ -24,7 +24,7 @@ export const THEME_LIST: ThemeCardData[] = [
     desc: 'Suasana tenang, sejuk, dan fokus dengan efek visual rintik air pixel pada bilah header. Sempurna untuk deep work tanpa distraksi.',
     icon: 'water-drop',
     swatches: ['#3A4D5E', '#7B92A8', '#70C5E8', '#EAF6FD'],
-    image: require('../../assets/pixel/theme_rainy.png'),
+    image: require('../../assets/pixel/theme_rainy.jpg'),
   },
   {
     id: 'starry',
@@ -35,7 +35,7 @@ export const THEME_LIST: ThemeCardData[] = [
     desc: 'Hening dan damai, sangat ideal untuk sesi malam, journaling, dan refleksi harian dengan aksen bintang keemasan pixel.',
     icon: 'nights-stay',
     swatches: ['#171A2E', '#282A4A', '#FFDE59', '#7367F0'],
-    image: require('../../assets/pixel/theme_starry.png'),
+    image: require('../../assets/pixel/theme_starry.jpg'),
   },
   {
     id: 'windy',
@@ -46,7 +46,7 @@ export const THEME_LIST: ThemeCardData[] = [
     desc: 'Dinamis, bersemangat, segar dan aktif. Menyertakan partikel dedaunan hijau-keemasan yang meluncur di sela-sela kartu agenda.',
     icon: 'air',
     swatches: ['#56B4D3', '#A5E2E8', '#88D49E', '#F3C969'],
-    image: require('../../assets/pixel/theme_windy.png'),
+    image: require('../../assets/pixel/theme_windy.jpg'),
   },
   {
     id: 'snow',
@@ -57,7 +57,7 @@ export const THEME_LIST: ThemeCardData[] = [
     desc: 'Dingin, bersih, minimalis, dan tentram. Mengganti latar jadwal dengan palet salju pastel yang jernih dan menenangkan mata.',
     icon: 'ac-unit',
     swatches: ['#EAF6FD', '#88CEEB', '#D4EFFC', '#3076AB'],
-    image: require('../../assets/pixel/theme_snow.png'),
+    image: require('../../assets/pixel/theme_snow.jpg'),
   },
   {
     id: 'default',
