@@ -15,6 +15,7 @@
     },
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./assets/pixel/icon.png",
         "backgroundColor": "#eafeef"
       },
       "package": "com.slarkboy.haya"
